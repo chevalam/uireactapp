@@ -1,0 +1,75 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ListContacts should render correctly 1`] = `
+<div
+  className="list-contacts"
+>
+  <div
+    className="list-contacts-top"
+  >
+    <input
+      className="search-contacts"
+      onChange={[Function]}
+      placeholder="search"
+      type="text"
+      value=""
+    />
+  </div>
+  <ol
+    className="contact-list"
+  >
+    <li
+      className="contact-list-item"
+    >
+      <Avatar
+        size={40}
+      >
+        <pure(AccountCircle) />
+      </Avatar>
+      <div
+        className="contact-details"
+      >
+        <p
+          style={
+            Object {
+              "fontSize": 20,
+            }
+          }
+        />
+        <p
+          style={
+            Object {
+              "color": "#9e9e9e",
+            }
+          }
+        />
+      </div>
+      <div
+        className="contact-details"
+      >
+        <span
+          style={
+            Object {
+              "color": "#9e9e9e",
+            }
+          }
+        >
+          04/03/2018
+                                          
+          a few seconds ago
+        </span>
+      </div>
+      <IconButton
+        aria-label="Actions"
+        disableTouchRipple={false}
+        disabled={false}
+        iconStyle={Object {}}
+        tooltipPosition="bottom-center"
+        touch={false}
+      >
+        <pure(MoreVert) />
+      </IconButton>
+    </li>
+  </ol>
+</div>
+`;

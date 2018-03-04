@@ -1,0 +1,146 @@
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+html, body, .root {
+  height: 100%;
+}
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  line-height: 1.5;
+}
+body, .app {
+  background: #f5f5f5;
+}
+
+/* ListContacts */
+
+.list-contacts {
+  padding-top: 20px;
+}
+.list-contacts-top {
+  position: relative;
+  width: 100%;
+  top: 0;
+  border-bottom: 1px solid #d5d8df;
+}
+
+.search-contacts {
+  list-style-type: none;
+  width: 95%;
+  padding: 20px 20px 20px 60px;
+  margin-left: 40px;
+  background-image: url('./icons/search.svg');
+  background-repeat: no-repeat;
+  background-position: 20px center;
+  background-size: 1.2em;
+  font-size: 1.2em;
+  border: 0;
+  outline: none;
+  /*flex: 1;*/
+}
+
+.showing-contacts {
+  text-align: center;
+  margin: 20px 0;
+}
+.showing-contacts button {
+  border: none;
+  cursor: pointer;
+  font-size: inherit;
+}
+
+.contact-list {
+  width: 100%;
+  margin: 0;
+  padding: 0px 40px 100px 40px;
+  list-style-type: none;
+}
+.contact-list-item {
+  padding: 20px;
+  background: white;
+  display: flex;
+  /*border-bottom: 1px solid #eee;*/
+}
+
+@media (min-width: 600px) {
+  .contact-list-item {
+    margin: 0px;
+    /*border: 1px solid #d5d8df;*/
+    /*border-radius: 4px;*/
+  }
+}
+
+.contact-details {
+  padding-left: 20px;
+  flex: 1;
+  border-bottom: 1px solid #eee;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.contact-details p {
+  margin: 0;
+  min-width: 0;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.root {
+    width: 100%;
+    height: 100vh;
+    zIndex: 1;
+    overflow: hidden;
+}
+.appFrame {
+    position: relative;
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+.appBar {
+    margin-left: 240px;
+    position: absolute;
+    /*width: 640;*/
+    /*width: `calc(100% - ${240}px)`;*/
+  }
+
+.toolBarHeader {
+    max-width: 240px;
+    /*width: 250px;*/
+    position: relative;
+}
+
+.navIconHide {
+        display: none;
+}
+
+.drawerHeader {
+  justify-content: space-between;
+  }
+
+.drawerPaper {
+    width: 250px;
+    position: relative;
+    height: 100%;
+}
+.content {
+    background-color: #E0E0E0;
+    width: 90%;
+}
+.button {
+    float: right;
+    margin-right: 25px;
+    /*margin: theme.spacing.unit * 2;*/
+}
+
+.menuButton {
+    margin-left: -12px;
+    margin-right: 20px;
+}

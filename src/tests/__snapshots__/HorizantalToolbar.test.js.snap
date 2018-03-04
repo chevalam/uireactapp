@@ -1,0 +1,52 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`HorizantalToolbar should render correctly 1`] = `
+<div
+  style={
+    Object {
+      "justifyContent": "space-between",
+    }
+  }
+>
+  <IconButton
+    aria-label="View"
+    disableTouchRipple={false}
+    disabled={false}
+    iconStyle={Object {}}
+    tooltipPosition="bottom-center"
+    touch={false}
+  >
+    <pure(ViewModule) />
+  </IconButton>
+  <IconButton
+    aria-label="Sort"
+    disableTouchRipple={false}
+    disabled={false}
+    iconStyle={Object {}}
+    tooltipPosition="bottom-center"
+    touch={false}
+  >
+    <pure(Sort) />
+  </IconButton>
+  <IconButton
+    aria-label="Settings"
+    disableTouchRipple={false}
+    disabled={false}
+    iconStyle={Object {}}
+    tooltipPosition="bottom-center"
+    touch={false}
+  >
+    <pure(Settings) />
+  </IconButton>
+  <IconButton
+    aria-label="More"
+    disableTouchRipple={false}
+    disabled={false}
+    iconStyle={Object {}}
+    tooltipPosition="bottom-center"
+    touch={false}
+  >
+    <pure(MoreVert) />
+  </IconButton>
+</div>
+`;
